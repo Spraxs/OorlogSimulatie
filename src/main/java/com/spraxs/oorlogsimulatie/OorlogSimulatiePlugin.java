@@ -31,12 +31,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class OorlogSimulatiePlugin extends JavaPlugin {
 
-    private static @Getter
-    OorlogSimulatiePlugin instance;
-
-    //TODO Maak een mechanic dat spelers "verstijven" als ze te lang in water zijn, maybe ook nog kleine damage over een lange duur.
-
-
+    private static @Getter OorlogSimulatiePlugin instance;
     @Override
     public void onEnable() {
         // Plugin startup logic
