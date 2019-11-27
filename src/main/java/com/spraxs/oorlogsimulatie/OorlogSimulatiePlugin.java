@@ -32,6 +32,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class OorlogSimulatiePlugin extends JavaPlugin {
 
     private static @Getter OorlogSimulatiePlugin instance;
+    
     @Override
     public void onEnable() {
         // Plugin startup logic
